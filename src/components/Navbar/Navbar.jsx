@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { userLogoutAction } from "../../redux/actions/userAction";
 import axios from "axios";
-import "../../CommonStyle/comStyle.css"
+import "../../CommonStyle/comStyle.css";
 
 const Navbar = () => {
   const { userInfo } = useSelector((state) => state.signIn);

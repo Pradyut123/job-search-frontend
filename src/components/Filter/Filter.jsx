@@ -41,7 +41,7 @@ const Filter = () => {
         Search according to your preference:
       </p>
 
-      <div className="filterDiv flex items-center gap-10 justify-center">
+      <div className="filterDiv flex flex-col md:flex-row items-center gap-10 justify-center">
         <div className="singleSearch flex items-center gap-2">
           <label htmlFor="relevance" className="text-[#808080] font-semibold">
             Search By Location:{" "}
